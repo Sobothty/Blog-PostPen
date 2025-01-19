@@ -1,6 +1,10 @@
 import Card from "./Card";
-import posts from "./posts"; // Import the posts array
-import "./App.css";
+import posts from "./posts";
+import { useState } from 'react'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
 
 const App = () => {
   return (
@@ -17,6 +21,6 @@ const App = () => {
       </div>
     </main>
   );
-};
+}; 
 
 export default App;
