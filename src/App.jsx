@@ -6,7 +6,6 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
-  const App = () => {
     return (
       <main>
         <div className="bg-gray-100 p-8">
@@ -22,6 +21,5 @@ function App() {
       </main>
     );
   };
-}
 
 export default App;
